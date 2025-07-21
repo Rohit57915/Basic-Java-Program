@@ -1,0 +1,32 @@
+class Product 
+{
+	int pid;
+	double price;
+	
+	Product( int arg1,double arg2)
+	{
+		pid=arg1;
+		price=arg2;
+	}
+	
+	
+}
+public class ParaArgumentConst2
+{
+	public static void main(String[] args)
+	{
+		
+		Product p1=new Product(101,3700.0);
+		System.out.println(p1.pid);
+		System.out.println(p1.price);
+		
+		Product p2=new Product(123,243.9);
+		System.out.println(p2.pid);
+		System.out.println(p2.price);
+		
+		Product p3=new Product(344,2455.0);
+		System.out.println(p3.pid);
+		System.out.println(p3.price);
+		
+	}
+}
